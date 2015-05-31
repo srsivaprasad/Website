@@ -19,6 +19,9 @@
     .pad-T{
         margin-top:10px;
     }
+    .pad-L{
+        margin-left:25px;
+    }
     .timeline .year, .timeline.v1 .year {
         background: #505050;
         font-size: 3em;
