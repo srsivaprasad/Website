@@ -61,7 +61,8 @@
     <link href="./Online CV/CSS/main.min.css" media="screen, projection" rel="stylesheet" type="text/css">
     <link href="./Online CV/CSS/demo-panel-style.css" rel="stylesheet" type="text/css">
     <link id="css-skin" rel="stylesheet" href="./Online CV/CSS/blue.css" type="text/css">
-		<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<link href="./Online CV/CSS/hover.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <!-- Fav and touch icons -->
@@ -142,11 +143,12 @@
                 <div class="social">
                     <h3 class="sub-heading">Follow me on:</h3>
                     <ul class="social-icons btn btn-round btn-clear btn-twitter">
-                        <li><a href="http://goo.gl/3AagJY" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="http://goo.gl/KGOsQY" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://goo.gl/c9UwfI" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://goo.gl/elHVC8" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="http://goo.gl/aRraay" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="http://goo.gl/3AagJY" target="_blank"><i class="fa fa-facebook "></i></a></li>
+                        <li><a href="http://goo.gl/KGOsQY" target="_blank"><i class="fa fa-twitter "></i></a></li>
+                        <li><a href="https://goo.gl/c9UwfI" target="_blank"><i class="fa fa-google-plus "></i></a></li>
+                        <li><a href="https://goo.gl/elHVC8" target="_blank"><i class="fa fa-linkedin "></i></a></li>
+						 <li><a href="http://goo.gl/VwkFq1" target="_blank"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="http://goo.gl/aRraay" target="_blank"><i class="fa fa-instagram "></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -300,7 +302,37 @@
             <div class="container">
                 <h2 class="heading">PROJECTS</h2>
                 <div class="row interest">
-                    <div class="row">
+					<div class="row">
+                        <div class="col-md-6">
+                            <h2 class="sub-heading"><strong>School / Collage Management</strong></h2>
+                                <p class="pad-L"><strong>Front End :</strong>C#.net, Dev Express</p>
+                            <p class="pad-L"><strong>Back End :</strong>SQL Server 2008 R2</p>
+                            <p></p>
+                        </div>
+                        <div class="col-md-6" style="border-left: 1px solid #eee">
+                            <h2 class="sub-heading"><strong>Library Management</strong></h2>
+                            <p class="pad-L"><strong>Front End :</strong>C#.net, Dev Express</p>
+                            <p class="pad-L"><strong>Back End :</strong>SQL Server 2008 R2</p>
+                            <p></p>
+                        </div>
+                    </div>
+ <hr>				 
+				 <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="sub-heading"><strong>Student Management system</strong></h2>
+                            <p class="pad-L"><strong>Front End :</strong>C#.net</p>
+                            <p class="pad-L"><strong>Back End :</strong>SQL Server 2008 R2</p>
+                            <p></p>
+                        </div>
+                        <div class="col-md-6" style="border-left: 1px solid #eee">
+                            <h2 class="sub-heading"><strong>Billing Software for Retail Shops</strong></h2>
+                            <p class="pad-L"><strong>Front End :</strong>C#.net, Dev Express</p>
+                            <p class="pad-L"><strong>Back End :</strong>SQL Server 2008 R2</p>
+                            <p></p>
+                        </div>
+                    </div>
+ <hr>                  
+				  <div class="row">
                         <div class="col-md-6">
                             <h2 class="sub-heading"><strong>Traffic Aid - TAd</strong></h2>
                             <p class="pad-L"><strong>Front End :</strong>PHP</p>
@@ -375,8 +407,7 @@
                 
                 <div class="row contact-address">
                     <div class="col-md-6">
-                        
-<div id="googleMap" class="col-md-12" style=" height:300px;"></div>
+						<div id="googleMap" class="col-md-12" style=" height:300px;"></div>
                     </div>
                     <div class="col-md-6">
                         <div class="address-lines">
@@ -388,7 +419,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+				 
+			 </div>
         </section>
         <!-- END CONTACTS -->
         <!-- FOOTER -->
@@ -409,6 +441,7 @@
     <script src="./Online CV/JS/jquery.easypiechart.min.js"></script>
     <script src="./Online CV/JS/main.min.js"></script>
     <script src="./Online CV/JS/prefixfree.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
 var myCenter=new google.maps.LatLng(8.481574,76.957324);
 var marker;
