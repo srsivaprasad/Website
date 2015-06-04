@@ -50,7 +50,7 @@ a {
 }
 
 .skills {
-    background-color: #444;
+    background-color: #FFF;
 }
 
 .about-me {
@@ -66,11 +66,11 @@ a {
 }
 
 .skill-chart .chart-title {
-    color: #fff;
+    color: #757575;
 }
 
 .pie-chart .percent {
-    color: #fff;
+    color: #757575;
 }
 
 .timeline {

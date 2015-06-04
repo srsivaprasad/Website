@@ -17,7 +17,7 @@
         box-sizing: border-box;
     }
     .pad-T{
-        margin-top:10px;
+        margin-top:50px;
     }
     .pad-L{
         margin-left:25px;
@@ -487,7 +487,7 @@ ul.social-icons i {
 
     .skill-chart .chart-title {
         display: block;
-        font-size: 24px;
+        font-size: 18px;
         color: #875f20;
     }
 
@@ -505,7 +505,7 @@ ul.social-icons i {
     *display: inline;
     position: relative;
     width: 180px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
     .pie-chart canvas {
