@@ -9,7 +9,10 @@ a {
 .btn-default {
     background-color: #3c3c3c;
 }
-
+.contact-item {
+  width: 100%;
+  float: left;
+}
     .btn-default:hover, .btn-default:active, .btn-default:focus {
         background-color: #444;
     }
