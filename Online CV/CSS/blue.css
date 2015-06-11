@@ -75,7 +75,10 @@ a {
 .pie-chart .percent {
     color: #757575;
 }
-
+.border-R{
+ border-left: 1px;
+ solid #eee";
+}
 .timeline {
     background-image: url('~/../../Image/vertical-line-blue.png');
 }

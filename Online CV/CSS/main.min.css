@@ -388,7 +388,7 @@ a {
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
-    border: 20px solid rgba(0,0,0,0.1);
+    border: 10px solid rgba(6, 86, 153, 0.16);
 }
 
     .avatar img {
