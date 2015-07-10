@@ -89,10 +89,12 @@
                         <li class=""><a href="./index.html#resume">RESUME</a></li>
                         <li class=""><a href="./index.html#projects">PROJECTS</a></li>
                         <li class=""><a href="./index.html#contacts">CONTACTS</a></li>
+						<li class=""><a href="./test.html">CONTACTS</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+		<div></div>
         <!-- END MAIN NAVIGATION -->
         <!-- HEADER -->
         <header class="hero-unit header" id="header">
@@ -158,7 +160,6 @@
         <section class="section skills" id="skills">
             <div class="container">
 			 <h2 class="heading">SKILLS</h2>
-  
                 <div class="row">
                     <div class="col-md-3">
                         <div class="skill-chart">
@@ -218,8 +219,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="skill-chart">
-                            <div class="pie-chart" id="chart3" data-percent="80">
-                                <span class="percent">80%</span>
+                            <div class="pie-chart" id="chart3" data-percent="75">
+                                <span class="percent">75%</span>
                                 <canvas height="150" width="150"></canvas>
                             </div>
                             <span class="chart-title">KnockoutJs</span>
@@ -386,6 +387,22 @@
                 </div>
             </section>
             <!-- END PROJECTS -->
+			<!-- Blog-->
+            <section class="section projects" id="blog">
+<!--       <h2 class="heading">MY Blog</h2>
+	   <div class="container">
+   <div style="border:2px solid #666; border-radius:11px; padding:20px;">
+
+<iframe id="form-iframe" src="http://blog.logiticks.com/author/Sivaprasad-S-R" style="margin:0; width:100%; height:250px; border:none; overflow:hidden;" scrolling="no" onload="AdjustIframeHeightOnLoad()"></iframe>
+ 
+</div> -->
+
+
+ 
+	   </div> 
+  
+		   </section>
+            <!-- END PROJECTS -->
             <!-- CONTACTS -->
               <section class="section contacts" id="contacts">
                 <div class="container">
@@ -500,6 +517,9 @@
         });
     </script>
     <!-- END DEMO PANEL -->
-
+<script type="text/javascript">
+function AdjustIframeHeightOnLoad() { document.getElementById("form-iframe").style.height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px"; }
+function AdjustIframeHeight(i) { document.getElementById("form-iframe").style.height = parseInt(i) + "px"; }
+</script>
 </body>
 </html>
