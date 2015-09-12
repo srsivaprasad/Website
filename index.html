@@ -526,7 +526,7 @@ mixpanel.init("00417a0442da6b8e05af5b693c549590");</script><!-- end Mixpanel -->
                 zoom: 14,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
-
+mixpanel.track("Video play");
             var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
             var marker = new google.maps.Marker({
